@@ -64,6 +64,10 @@ The router pulls only what the task needs:
 - **"Optimize my dashboard"** → Frontend(perf) + Design(UX) + Backend(data).
 - **"Add a RAG feature"** → AI + Backend + Security(injection/data-governance).
 
+## Optional automation
+
+Auto-documentation runs as a **deliberate workflow**, not a background daemon. If you want it fired automatically after each task, an opt-in `Stop` hook (with honest caveats) is documented in [`hooks/auto-docs-hook.md`](hooks/auto-docs-hook.md) — it is intentionally left inactive by default.
+
 ## Design principles
 
 - **Merged, not fragmented** — one capability = one file. The registry is the router.
