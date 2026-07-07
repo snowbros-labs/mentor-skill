@@ -1,5 +1,7 @@
 # Mentor — Engineering Intelligence System
 
+<p>A <a href="https://github.com/snowbros-labs">SNOWBROS</a> open-source product · maintained by <a href="https://www.snowbros.me">snowbros.me</a></p>
+
 A [Claude Code](https://claude.com/claude-code) **skill**: a single orchestration layer over ten specialist engineering capabilities. It routes any task to only the expertise it needs — like a senior engineering manager assigning specialists — and runs in two modes:
 
 - **TEACH** — trains you toward elite, Principal-grade judgment from first principles (full curriculum, exercises, review gates, a leveled roadmap).
@@ -13,9 +15,9 @@ Clone into (or copy the repo contents into) a `mentor` folder in your Claude Cod
 
 ```bash
 # global (all projects)
-git clone https://github.com/VED2107/mentor-skill.git ~/.claude/skills/mentor
+git clone https://github.com/snowbros-labs/mentor-skill.git ~/.claude/skills/mentor
 # or project-local
-git clone https://github.com/VED2107/mentor-skill.git .claude/skills/mentor
+git clone https://github.com/snowbros-labs/mentor-skill.git .claude/skills/mentor
 ```
 
 Then invoke it explicitly — it does not auto-trigger on ordinary questions:
@@ -76,6 +78,10 @@ Auto-documentation runs as a **deliberate workflow**, not a background daemon. I
 - **Reuse the harness** — memory (`MEMORY.md`) and codebase graphs (the `graphify` skill) are not reinvented.
 - **Honest over impressive** — no fake token meter, no fake self-triggering; see `orchestration.md` §9.
 
+## Organization
+
+Built and maintained by **[SNOWBROS](https://github.com/snowbros-labs)** — an independent software engineering studio ([snowbros.me](https://www.snowbros.me)) building scalable SaaS, AI applications, and developer tools engineered for the long term. Mentor is part of the SNOWBROS product line alongside [Atlas](https://github.com/snowbros-labs/atlas) (deterministic static analysis for JavaScript & TypeScript).
+
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). © 2026 SNOWBROS / Ved Chauhan.
