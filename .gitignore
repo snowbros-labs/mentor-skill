@@ -1,0 +1,20 @@
+# Runtime / local artifacts
+docs/checkpoint.md
+*.local.md
+
+# Secrets — never commit
+.env
+env
+*.key
+*.pem
+secrets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Skill-creator eval scratch (if ever run here)
+*-workspace/
+evals/results/
