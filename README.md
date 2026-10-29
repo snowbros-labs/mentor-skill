@@ -1,6 +1,6 @@
 # Mentor — Engineering Intelligence System
 
-<p>A <a href="https://github.com/snowbros-labs">SNOWBROS</a> open-source product · maintained by <a href="https://www.snowbros.me">snowbros.me</a></p>
+<p>A <a href="https://github.com/snowbros-labs">SNOWBROS</a> open-source product · maintained by <a href="https://snowbros.me">snowbros.me</a></p>
 
 A [Claude Code](https://claude.com/claude-code) **skill**: a single orchestration layer over ten specialist engineering capabilities. It routes any task to only the expertise it needs — like a senior engineering manager assigning specialists — and runs in two modes:
 
@@ -80,8 +80,21 @@ Auto-documentation runs as a **deliberate workflow**, not a background daemon. I
 
 ## Organization
 
-Built and maintained by **[SNOWBROS](https://github.com/snowbros-labs)** — an independent software engineering studio ([snowbros.me](https://www.snowbros.me)) building scalable SaaS, AI applications, and developer tools engineered for the long term. Mentor is part of the SNOWBROS product line alongside [Atlas](https://github.com/snowbros-labs/atlas) (deterministic static analysis for JavaScript & TypeScript).
+Built and maintained by **[SNOWBROS](https://snowbros.me)**, an independent engineering studio: developer tools, products and interfaces that tell you what they actually did. Mentor sits alongside [Atlas](https://github.com/snowbros-labs/atlas) (deterministic static analysis) and [Creative Engineering](https://github.com/snowbros-labs/creative-engineering) (motion and interface toolkit).
 
 ## License
 
 MIT — see [LICENSE](LICENSE). © 2026 SNOWBROS / Ved Chauhan.
+
+---
+
+<p align="center">
+  <a href="https://snowbros.me">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/snowbros-labs/.github/main/profile/assets/snowbros-lockup-paper.svg">
+      <img src="https://raw.githubusercontent.com/snowbros-labs/.github/main/profile/assets/snowbros-lockup-ink.svg" alt="SNOWBROS" width="160">
+    </picture>
+  </a>
+  <br>
+  <sub>Built by <a href="https://snowbros.me">SNOWBROS</a>, an independent engineering studio · <a href="https://github.com/snowbros-labs">GitHub</a> · <a href="https://www.linkedin.com/company/snowbros-studio/">LinkedIn</a></sub>
+</p>
